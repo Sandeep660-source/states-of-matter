@@ -38,6 +38,7 @@ const StatesOfMatter = () => {
 
  return (
   <><div classmate ='container'>
+    <div class ='background'>
     <div>  Temperature {temperature} </div> 
         <div>
            <img src={state.image}alt={state.state} 
@@ -55,6 +56,7 @@ const StatesOfMatter = () => {
 
            
             
+        </div>
         </div>
         </div>
         </>
